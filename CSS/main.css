@@ -1,0 +1,336 @@
+main {
+  background-color: #F1F1F1;
+}
+
+body {
+  background-color: #46464600;
+  font-family: 'Poppins';
+  text-align: center;
+  box-sizing: border-box;
+  margin: 15;
+  padding:15;
+  }
+  
+h1{
+text-align: center;
+font-size: x-large;
+}
+
+.nav-bar{
+     background-color: rgb(3, 105, 8);
+     overflow: hidden;
+   }
+    
+.nav-bar a{
+    display: inline-block;
+    color: beige;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px 0px;
+}
+
+.nav-bar li{
+    display: inline;
+}
+    
+.nav-bar a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.section-header {
+color: rgb(255, 255, 255);
+}
+
+img{
+	padding-bottom: 20px
+}
+
+.rice {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.soup {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.juice {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+.rice-item {
+    border: 1px solid #000000;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.soup-item {
+    border: 1px solid #000000;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+  
+.juice-item {
+    border: 1px solid #000000;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+} 
+  
+.rice-header {
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+.soup-header {
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+  
+.juice-header {
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.section-header {
+  color: rgb(0, 0, 0);
+}
+
+.rice-contents {
+  padding: 10px;
+}
+
+.soup-contents {
+  padding: 10px;
+}
+
+.juice-contents {
+  padding: 10px;
+}
+
+
+
+.mypicture{
+  float: left;
+}
+    
+/* Importing webfonts */
+/* (If you're learning CSS, you should disregard that) */
+
+/* CSS reset rules */
+
+html, body {
+	height: 100%;
+	min-height: 100%;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Fonts and colors */
+
+body {
+	font-family: 'Poppins';
+	color: rgba(0, 0, 0, 0.8);
+}
+h1, h2, h3, h4, h5, h6, header {
+	font-family: 'Poppins';
+}
+
+header {
+	border-bottom: 1px solid rgb(221,221,221);
+	transition: border-bottom-color 1s ease;
+}
+header a {
+	color: rgba(0, 0, 0, 0.8);
+}
+aside {
+	background: #FAFAFA;
+}
+aside p {
+	border: 1px solid #bbb;
+	background: #ddd;
+	color: black;
+}
+footer a {
+	color: rgba(0, 0, 0, 0.8);
+}
+a {
+	color: #F80002;
+}
+
+
+/* Positioning and margins */
+
+@media (min-width: 1100px) {
+	body {
+		width: 1100px;
+		margin: 0 auto;
+	}
+}
+
+article {
+	padding: 50px 15px;
+}
+article > *:first-child {
+	margin-top: 0;
+}
+aside {
+	padding: 50px 15px;
+}
+header .right {
+	float: right;
+	margin: 0 10px 15px;
+}
+
+
+/* Header */
+header {
+	padding: 20px 0;
+	height: 80px;
+}
+header ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+header li {
+	display: inline;
+	vertical-align:middle;
+}
+header li:first-child {
+	margin: 0;
+}
+header li a {
+	margin: 0 10px;
+}
+header li.logo {
+	font-size: 36px;
+}
+header a {
+	text-decoration: none;
+}
+
+
+/* Aside */
+
+aside p {
+	border-radius: 10px;
+	padding: 20px 20px;
+}
+
+
+/* Footer */
+
+footer {
+	padding: 5px 15px;
+	height: 80px;
+}
+
+
+/* Text styles and margins */
+
+p {
+	margin-bottom: 15px;
+}
+h1 {
+	font-size: 36px;
+	margin: 40px 0 20px;
+}
+h2 {
+	font-size: 32px;
+	margin: 30px 0 15px;
+}
+h3 {
+	font-size: 28px;
+	margin: 25px 0 10px;
+}
+h4 {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 20px 0 10px;
+}
+h5 {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 15px 0 10px;
+}
+h6 {
+	font-weight: bold;
+	margin: 5px 0;
+}
+
+@media (max-width: 800px) {
+  body.works_on_smartphone {
+  	display: block;
+  }
+  body.works_on_smartphone main {
+  	display: block;
+  }
+  header .right {
+  	float: none;
+  }
+}
+
+/* image JS challenge */
+
+img {
+	max-width: 100%;
+	padding: 20px;
+}
+
+img.small {
+	width: 100px;
+}
